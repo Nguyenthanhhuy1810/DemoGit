@@ -1,0 +1,31 @@
+- Product
+	+ Id: 
+	+ Name
+	+ Image
+	+ Category
+	+ Price
+	+ CreateDate
+	+ Thời gian bảo hành
+- Employee
+	+ Username
+	+ Fullname
+	+ Password
+	+ Email
+	+ Photo
+	+ create Date
+	+ Activated
+	+ Admin
+- Category
+	+ Id
+	+ Name
+- Order
+	+ Id
+	+ Username
+	+ CreateDate
+	+ Address
+- OrderDetail
+	+ ID
+	+ OrderId
+	+ ProductId
+	+ Price
+	+ Quantity

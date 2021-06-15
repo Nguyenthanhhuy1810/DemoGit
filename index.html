@@ -4,11 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello Huy Shiba</h1>
-    <h2>This is Second Commit of Huy</h2>
-    <h3>-------------------------------</h3>
+   <form>
+    <div class="col-sm-4 offset-4">
+        <div class="col-sm-12">
+            <img class="col-sm-12" id="hinhanhne" alt="Hình ảnh nè">
+        </div>
+        <!-- <input onchange="LoadImages()" name="ihinh" type="file" id="hinh" > -->
+    
+
+        <input id='inputfile' type='file' name='inputfile' onChange='getoutput()'><br>
+    Output Filename <input id='outputfile' type='text' name='outputfile'><br>
+    Extension <input id='extension' type='text' name='extension'>
+    </form>
+    </div>
+   
+    <script>
+        var a;
+        var b;
+    function getFile(filePath) {
+           a = filePath.substr(filePath.lastIndexOf('\\') + 1).split('.')[0];
+        return filePath.substr(filePath.lastIndexOf('\\') + 1).split('.')[0];
+    }
+
+    function getoutput() {
+        outputfile.value = getFile(inputfile.value);
+       var c = extension.value = inputfile.value.split('.')[1];
+       document.getElementById("hinhanhne").src = "/img/" +a + "."+ c;
+
+    }
+    </script>
 </body>
 </html>

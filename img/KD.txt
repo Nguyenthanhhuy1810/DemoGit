@@ -1,0 +1,17 @@
+Lĩnh vực: 
+- Doanh nghiệp sẽ hoạt động trong các lĩnh vực sau
+	1. Sản xuất
+	2. Dịch Vụ
+	3. Doanh nghiệp mới thành lập
+	+ Sản xuất là sản xuất về cái gì? Đó là sản xuất 1 phần mềm quản lý cửa hàng để bán cho khách hàng 
+Đầu tiên nhóm chúng em sẽ viết một phần mềm chuyên quản lý các cửa hàng tiện lợi, phần mềm này sẽ được đưa lên trang web
+để quảng cáo. Do nhân viên (nhóm) có học lập trình web nên có thể tự tạo trang web, Khách hàng sẽ vào trang web xem và nếu thấy
+phù hợp sẽ có 2 cách: 
+	Cách 1: Gọi SĐT hoặc Zalo để được nhân viên hỗ trợ nếu đồng ý sẽ đến công ty và tiến hành mua phần mềm
+	Cách 2: Sẽ đến thẳng công ty để được nhân viên hỗ trợ trực tiếp và mua phần mềm
+Dịch vụ công ty sẽ làm về kiểm thử phần mềm
+	+ Công ty sẽ nhận phần mềm từ công ty hoặc khách hàng, sau đó bên công ty sẽ xem xét và phân chia công việc 
+	Những người test sẽ xem sơ mã nguồn sau đó lên kế hoạch và viết ứng dụng test, sau đó tiến hành test nếu có lỗi sẽ gửi về công ty cho nhân viên dev bên công ty kia fixx
+fix xong sẽ gửi về công ty và tiếp tục test
+
+
